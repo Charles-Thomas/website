@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Coding Cafe</title>
+    <style>
+        .menu-div {
+            color: #cc6d0091;
+            ;
+        }
+
+        .order-div {
+            color: rgb(77, 44, 2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="download-1.jpg" alt="CODING CAFE" id="header-img">
+        <h1>C0D3ING CAFE</h1>
+
+        <nav>
+            <ul>
+                <a href="#Menu">
+                    <li>Menu</li>
+                </a>
+                <a href="#Order-Form">
+                    <li>Place an Order</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="menu-div" id="menu">
+                <h1>Menu</h1>
+                <article> <img src="images.jpg" alt="Croissant">
+                    <h3>Compiler Croissant</h3>
+                    <i>$3.99</i>
+                    <p>Freshly baked croissant with an option of chocolate drizzle</p>
+                </article>
+                <br>
+                <article> <img src="download-3.jpg" alt="Coffee">
+                    <h3>Caffeen's Coffee</h3>
+                    <i>$4.99</i>
+                    <p>Our special Blend of coffee and neurofactor givng you the focus and engery for your<br>
+                        Coding session</p>
+                </article>
+                <br>
+                <article> <img src="images-1.jpg" alt="Tea">
+                    <h3>Bugged Tea</h3>
+                    <i>$3.99</i>
+                    <p>caffinated tea for those who just want a hot drink with a little Jump<br>
+                        to sip on while their code compiles </p>
+                </article>
+                <br>
+                <article> <img src="download-2.jpg" alt="Decaf Tea">
+                    <h3>Debugged Tea</h3>
+                    <i>$2.99</i>
+                    <p>Decaffinated tea for those who just want a hot drink to sip on while their code compiles </p>
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <div class="order-div" id="Item">
+                <h1> Place Your order </h1>
+                <form>
+
+                    <label for="Item ">Caffeen's Coffee</label> <input type="number" name="Item" min="0" max="5">
+                    <label for="Item ">Debugged Tea</label><input type="number" name="Item" min="0" max="5">
+                    <label for="Item ">Bugged Tea</label> <input type="number" name="Item" min="0" max="5">
+                    <label for="Item ">Compiler Croissant</label><input type="number" name="Item" min="0" max="5">
+                    <br><br>
+                    <label>Sides:</label> Sugar<input type="checkbox">
+                    Milk<input type="checkbox">
+                    Chocolate Dip<input type="checkbox">
+
+                    <br>
+
+                    <h5>Add special request</h5>
+                    <textarea placeholder=Special request cols="21" rows="7"> </textarea>
+                    <br>
+                    <input type="submit" value="Go to Checkout ">
+
+            </div>
+            </form>
+
+        </section>
+
+    </main>
+    <br><br>
+    <footer>
+        <p>Made with Love By Uzvazra</p>
+    </footer>
+</body>
+
+</html>
